@@ -15,7 +15,7 @@
 
 </head>
 
-<body>
+<body style="background-image: url('Assets/Graphic/Pergamin.jpg');">
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
@@ -46,22 +46,62 @@
   </nav>
 
   <!-- Page Content -->
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h1 class="mt-5">Podręcznik</h1>
-        <p class="lead">Tu będzie podręcznik</p>
-        <ul class="list-unstyled">
-          <li>Bootstrap 4.5.0</li>
-          <li>jQuery 3.5.1</li>
-        </ul>
-      </div>
-    </div>
-  </div>
+  <h1 class="mt-5" id="Tytul">Podręcznik html - tabele</h1>
+  <p id="opis1">Podstawowe znaczniki przydatne przy tworzeniu tabel, zostały przedstawione w poniższej tabeli wraz z opisem.</p>
+  <!--Table-->
+  <table id="Tabela"> <!--id="tablePreview" class="table"-->
+    <!--Table head-->
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Tag</th>
+          <th>Opis</th>
+        </tr>
+      </thead>
+      <!--Table body-->
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>table</td>
+          <td>Definicja tabeli</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>th</td>
+          <td>Definiowanie komórek nagłówkowych</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>thead</td>
+          <td>Definiowanie grupy komórek nagłówkowych</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>tr</td>
+          <td>Definiowanie kolejnych wierszy tabeli</td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td>td</td>
+          <td>Definiowanie pojedyńczych komórek tabeli</td>
+        </tr>
+        <tr>
+          <th scope="row">6</th>
+          <td>tbody</td>
+          <td>Definiowanie grupy komórek tabeli</td>
+        </tr>
+        <tr>
+          <th scope="row">7</th>
+          <td>tfoot</td>
+          <td>Definiowanie grupy komórek w stopce tabeli</td>
+        </tr>
+      </tbody>
+    </table>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.slim.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="Assets/Script/podrecznik.js"></script>
 
 </body>
 
