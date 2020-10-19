@@ -19,4 +19,19 @@ for (i = 0; i < komorkiheader.length; i++){
     komorkiheader[i].style.backgroundColor="Orange";
 }
 
-document.getElementById("opis1").style.textAlign="center";
+var opisy = document.getElementsByClassName("opis");
+for (i = 0; i < opisy.length; i++){
+    opisy[i].style.textAlign="center";
+}
+
+var zdj = document.getElementsByTagName("div");
+for (i = 0; i < zdj.length; i++){
+    zdj[i].style.textAlign="center";
+}
+
+document.getElementById("topButton").style.textAlign="right";
+
+
+function topFunction() {
+  document.documentElement.scrollTop = 0;
+}
