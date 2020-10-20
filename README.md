@@ -10,4 +10,4 @@ Lab1 - Praca z systemem kontroli wersji. Podstawy WWW
         na stronie startowej należy umieścić informację o autorze oraz opcjonalnie np. logo, informacje o użytych technologiach itp.
     Należy użyć HTML, CSS i JS do ww. zadania
 
-![Strona startowa!](Lab1/Assets/ScreenShots/StronaStarrtowa.jpg "Strona startowa")
+![Strona startowa!](Lab1/Assets/ScreenShots/StronaStartowa.jpg "Strona startowa")
