@@ -10,18 +10,19 @@ tabela.style.margin="auto";
 var komorki = document.getElementsByTagName("td");
 for (i = 0; i < komorki.length; i++){
     komorki[i].style.border="1px solid black";
-    komorki[i].style.backgroundColor="Lightgreen";
+    komorki[i].style.backgroundColor="papayawhip";
 }
 
 var komorkiheader = document.getElementsByTagName("th");
 for (i = 0; i < komorkiheader.length; i++){
     komorkiheader[i].style.border="1px solid black";
-    komorkiheader[i].style.backgroundColor="Orange";
+    komorkiheader[i].style.backgroundColor="palegoldenrod";
 }
 
 var opisy = document.getElementsByClassName("opis");
 for (i = 0; i < opisy.length; i++){
     opisy[i].style.textAlign="center";
+    opisy[i].style.marginTop="6px";
 }
 
 var zdj = document.getElementsByTagName("div");
