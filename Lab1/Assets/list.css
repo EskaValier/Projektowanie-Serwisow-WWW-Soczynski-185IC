@@ -1,5 +1,8 @@
 p{
     text-align: left;
+    font-family: 'Yellowtail', cursive;
+    font-size: 20px;
+    margin-bottom: 5px;
 }
 
 h1{
@@ -16,8 +19,4 @@ h1{
 body{
     background-image: url("Graphic/Pergamin.jpg");
     background-size: 100%;
-}
-
-p{
-    margin-bottom: 5px;
 }
