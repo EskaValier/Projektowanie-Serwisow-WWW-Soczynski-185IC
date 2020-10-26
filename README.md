@@ -10,6 +10,7 @@ Strona powinna zawierać linki do trzech podstron
 ![Strona z listem!](Lab1/Assets/ScreenShots/List.jpg "List")
 - strona z podręcznika, np. do informatyki (rysunki, tabele, wzory itp.).
 ![Strona podrecznika!](Lab1/Assets/ScreenShots/Podrecznik.jpg "Podrecznik")
+![Strona podrecznika2!](Lab1/Assets/ScreenShots/Podrecznik2.jpg "Podrecznik2")
 - strona z formularzem (inputy, pola tekstowe, checkboxy itp.), na początku bez walidacji wartości pól.
 ![Strona formularza!](Lab1/Assets/ScreenShots/Formularz.jpg "Formularz")
     
