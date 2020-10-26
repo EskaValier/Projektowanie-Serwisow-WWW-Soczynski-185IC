@@ -1,6 +1,7 @@
-document.getElementById("Tytul").style.textAlign="Center";
-
 document.getElementsByTagName("body")[0].style.backgroundSize="100%";
+
+document.getElementById("formula").style.marginRight="25%";
+document.getElementById("formula").style.marginLeft="25%";
 
 function sprawdz(formularz)
 {
@@ -12,9 +13,16 @@ function sprawdz(formularz)
 			alert("Proszę wypełnić wszystkie pola!");
 			return false;
         }
-    }
+	}
+	
+	if(document.getElementById("defaultRegisterFormPassword").textContent != document.getElementById("defaultRegisterFormRepeatPassword").textContent){
+		alert("Proszę wprowadzić to samo hasło w obu miejscach");
+		return false;
+	}
+
     if(document.getElementById("regulamin").checked == false){
-        alert("Proszę zaakceptowac regulamin!");
+		alert("Proszę zaakceptowac regulamin!");
+		return false;
     }
     console.log("Poprawne wczytanie danych");
 	return true;

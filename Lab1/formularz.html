@@ -46,29 +46,65 @@
   </nav>
 
   <!-- Page Content -->
-  <form onsubmit="if (sprawdz(this)) return true; return false">
-    <div class="container">
-      <h1 id="Tytul">Formularz zgłoszeniowy</h1>
-      <dl>
-        <dt>Nazwa</dt>
-        <dd><input type="text" name="nazwa"></dd>
-        <dt>Imię</dt>
-        <dd><input type="text" name="imie"></dd>
-        <dt>Nazwisko</dt>
-        <dd><input type="text" name="nazwisko"></dd>
-        <dt>E-mail</dt>
-        <dd><input type="text" name="email"></dd>
-        <dt>Hasło</dt>
-        <dd><input type="password" name="haslo"></dd>
-        <dt>Zaakceptuj Regulamin</dt>
-        <dd><input type="checkbox" name="regulamin" id="regulamin"></dd>
-        <input type="submit" value="Wyślij">
-      </dl>
-    </div>
-  </form>
+  <!-- Default form register -->
+  <div id="formula">
+    <form onsubmit="if (sprawdz(this)) return true; return false" class="text-center border border-light p-5" action="#!">
+
+        <p class="h4 mb-4">Formularz zgłoszeniowy</p>
+
+        <div class="form-row mb-4">
+            <div class="col">
+                <!-- First name -->
+                <input type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="First name">
+            </div>
+            <div class="col">
+                <!-- Last name -->
+                <input type="text" id="defaultRegisterFormLastName" class="form-control" placeholder="Last name">
+            </div>
+        </div>
+
+        <!-- E-mail -->
+        <input type="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+        <!-- Password -->
+        <input type="password" id="defaultRegisterFormPassword" class="form-control" placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock">
+        <small id="defaultRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
+            At least 8 characters and 1 digit
+        </small>
+
+        <!-- Password repeat -->
+        <input type="password" id="defaultRegisterFormRepeatPassword" class="form-control" placeholder="Repeat Password" aria-describedby="defaultRegisterFormPasswordHelpBlock">
+        <small id="defaultRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
+            Repeat Password
+        </small>
+
+        <!-- Newsletter -->
+        <div class="custom-control custom-checkbox move-left">
+            <input type="checkbox" class="custom-control-input" id="defaultRegisterFormNewsletter">
+            <label class="custom-control-label" for="defaultRegisterFormNewsletter">Subscribe to our newsletter</label>
+        </div>
+
+        <div></div>
+
+        <!-- Terms -->
+        <div class="custom-control custom-checkbox">
+          <input type="checkbox" class="custom-control-input" id="regulamin">
+          <label class="custom-control-label" for="regulamin">Zaakceptuj regulamin</label>
+        </div>
+
+        <!-- Sign up button -->
+        <button class="btn btn-info my-4 btn-block" type="submit">Wyślij</button>
+
+        <hr>
+
+    </form>
+</div>
+<!-- Default form register -->
+
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.slim.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- My scripts -->
   <script src="Assets/Script/formularz.js"></script>
 
 </body>
