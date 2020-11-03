@@ -1,8 +1,10 @@
+"use strict";
+
 let x = document.getElementsByClassName("badge-light");
 x[0].innerHTML = 6; // x[0] to pierwszy znaleziony element
 
 var paragrafy = document.getElementsByTagName("p");
-for (i = 0; i < paragrafy.length; i++){
+for (var i = 0; i < paragrafy.length; i++){
     paragrafy[i].style.marginTop="10px";
     paragrafy[i].style.marginBottom="10px";
 }
@@ -10,7 +12,8 @@ for (i = 0; i < paragrafy.length; i++){
 var li = document.getElementsByTagName("li");
 for (i = 0; i < li.length; i++){
     "use strict";
-    li[i].style.marginTop="10px".marginBottom="10px";
+    li[i].style.marginTop="10px";
+    li[i].style.marginBottom="10px";
 }
 
 function topFunction() {
@@ -98,5 +101,19 @@ $(document).ready(function(){
         $("p").toggle("slow");
     });
 
+    // czyszczenie konsoli; wypisywanie w konsoli; losowanie liczby i zaokrąglanie jej w dół (podłoga)
+    $("#Randomizer").click(function(){
+        var rand = Math.floor((Math.random() * 100) + 1);
+        console.clear();
+        console.log("Welcome at the game.");
+        console.log("Your number is " + $("#UserNumber").val());
+        console.log("Page number is " + rand);
+        if($("#UserNumber").val()==rand){
+            console.log("You win a " + rand + " 000 000 Dolars !!!");
+        }
+        else{
+            console.log("You lose, but you can keep playing :D");
+        }
+    });
 });
 
