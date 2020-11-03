@@ -10,14 +10,14 @@
 
     <title>Labolatorium 2</title>
   </head>
-  <body>
+  <body style="background-image: url('Graphics/Galaxy.jpg');">
     <h1>Hello, world!</h1>
     <button type="button" class="btn btn-primary" id="notifications">
         Notifications <span class="badge badge-light"></span>
     </button>
 
-    <p>Your name: <input type="text" id="imie" value="Dominik"></p>
-    <p id="test">This is some <b>bold</b> text in a paragraph.</p>
+    <p>Enter your name: <input type="text" id="imie" value="Dominik"></p>
+    <p id="test">Ordered <i>list</i> of <b>button</b> doing things.</p>
 
     <ol>
         <li><button type="button" class="btn btn-primary" id="tekst">Insert name</button></li>
@@ -29,9 +29,14 @@
         <li><button type="button" class="btn btn-primary" id="AddLastListItem">Add last item to list</button></li>
         <li><button type="button" class="btn btn-primary" id="EmptyListItem">Empty added items to list</button></li>
         <li><button type="button" class="btn btn-primary" id="DellListItem">Remove added items from list</button></li>
+        <li><button type="button" class="btn btn-primary" id="ColorButton">Change buttons color to green</button></li>
     </ol>
-    <button type="button" class="btn btn-primary" id="ColorButton">Change buttons color to green</button>
-      
+    <button type="button" class="btn btn-primary" id="Hide">Hide button list</button>
+    <button type="button" class="btn btn-primary" id="Show">Show button list</button>
+    <p></p>
+    <button type="button" class="btn btn-primary" id="Toggle">Hide / Show paragrafs</button>
+    <p></p>
+    <button onclick="topFunction()">Return to top</button>
     <!--  jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>

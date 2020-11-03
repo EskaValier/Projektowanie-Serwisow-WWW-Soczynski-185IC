@@ -10,9 +10,16 @@ for (i = 0; i < paragrafy.length; i++){
 var li = document.getElementsByTagName("li");
 for (i = 0; i < li.length; i++){
     "use strict";
-    li[i].style.marginTop="10px";
-    li[i].style.marginBottom="10px";
+    li[i].style.marginTop="10px".marginBottom="10px";
 }
+
+function topFunction() {
+    document.documentElement.scrollTop = 0;
+}
+
+$("#Show").hide();
+
+$("body").css("color", "white");
 
 $(document).ready(function(){
     // wyświetla tekst z paragrafu w konsoli
@@ -64,8 +71,32 @@ $(document).ready(function(){
     $("#DellListItem").click(function(){
         $("li.added").remove();
     });
-
+    
+    // zmiana koloru przycisków
     $("#ColorButton").click(function(){
         $("button").css("background-color", "green");
     });
+
+    // ukrywa przyciski w liście (jeśli są widoczne)
+    $("#Hide").click(function(){
+        $("button").hide();
+        $("ol").hide("slow");
+        $("#Show").show();
+        $("#Hide").hide();
+    });
+
+    // pokazuje przyciski w liście (jeśli są ukryte)
+    $("#Show").click(function(){
+        $("button").show();
+        $("ol").show();
+        $("#Show").hide();
+        $("#Hide").show();
+    });
+
+    // to samo co hide & show tylko 1 przyciskiem i działa na paragrafy
+    $("#Toggle").click(function(){
+        $("p").toggle("slow");
+    });
+
 });
+
