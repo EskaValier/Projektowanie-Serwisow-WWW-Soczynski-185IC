@@ -16,6 +16,40 @@ for (i = 0; i < li.length; i++){
     li[i].style.marginBottom="10px";
 }
 
+function CreateTable() {
+    var x = document.createElement("TABLE");
+    x.setAttribute("id", "NewTable");
+    document.body.appendChild(x);
+  
+    var y = document.createElement("TR");
+    y.setAttribute("id", "myTr");
+    document.getElementById("NewTable").appendChild(y);
+}
+
+function AddElement() {
+    var x = document.getElementById("NewTable");
+  
+    var y = document.createElement("TR");
+    y.setAttribute("id", "myTr");
+    document.getElementById("NewTable").appendChild(y);
+  
+    var z = document.createElement("TD");
+    var t = document.createTextNode("cell");
+    z.appendChild(t);
+    document.getElementById("myTr").appendChild(z);
+}
+
+function AddRow() {
+    var y = document.createElement("TR");
+    y.setAttribute("id", "myTr");
+    document.getElementById("NewTable").appendChild(y);
+  
+    var z = document.createElement("TD");
+    var t = document.createTextNode("cell");
+    z.appendChild(t);
+    document.getElementById("NewTable").appendChild(z); 
+}
+
 function topFunction() {
     document.documentElement.scrollTop = 0;
 }
