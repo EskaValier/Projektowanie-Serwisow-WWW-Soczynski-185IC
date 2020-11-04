@@ -6,3 +6,4 @@ Prosta strona WWW. Strona zawiera linki do trzech podstron: List, Podrecznik i F
 
 **Lab2 - Praca z elementami DOM + ćwiczenia**
 
+Prosta strona WWW. Strona zawiera przyciski których funkcje realizowane są za pomocą js i jquery. Wyniki kliknięć przycisków pojawiają się na stronie lub w konsoli.
