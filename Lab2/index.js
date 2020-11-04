@@ -56,7 +56,11 @@ function topFunction() {
 
 $("#Show").hide();
 
-$("body").css("color", "white");
+$("body").css("color", "white", "backgroundSize", "100%");
+
+$("ol").css("text-align", "center");
+
+$("h1").css("text-align", "center");
 
 $(document).ready(function(){
     // wyświetla tekst z paragrafu w konsoli
