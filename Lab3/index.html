@@ -1,6 +1,23 @@
 <!doctype html>
 <html lang="pl">
   <head>
+  <style> 
+    div {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        animation-name: example;
+        animation-duration: 4s;
+    }
+
+    @keyframes example {
+        0%   {background-color: red;}
+        20%  {background-color: yellow;}
+        40%  {background-color: blue;}
+        60%  {background-color: green;}
+        100% {background-color: red;}
+    }
+    </style>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,13 +28,13 @@
     <title>Labolatorium 3</title>
   </head>
   <body>
-    <h1>Labolatorium 3</h1>
+    <h1 id="naglowek">Labolatorium 3</h1>
 
-    <p>Zadanie 1</p>
     <p>Enter text: <input type="text" class="form-control" id="tekst"></p>
-    <button type="button" class="btn btn-primary" id="liczbaLiter">Liczba liter</button>
+    <button type="button" class="btn btn-primary" id="btn1">button</button>
     <p></p>
-
+    <div id="animacja"></div>
+    <p></p>
 
 
     

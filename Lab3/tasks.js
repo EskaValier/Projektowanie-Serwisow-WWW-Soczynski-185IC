@@ -84,11 +84,11 @@ function Zadanie5(imie, miesiac){
     }
 }
 
-Zadanie5("Ala","Grudzien");
-Zadanie5("Ala","maj");
-Zadanie5("Ala","LIPIEC");
-Zadanie5("Ala","PaZdZiErNiK");
-Zadanie5("Ala","Grudzienn");
+Zadanie5("Dominik","Grudzien");
+Zadanie5("Dominik","maj");
+Zadanie5("Dominik","LIPIEC");
+Zadanie5("Dominik","PaZdZiErNiK");
+Zadanie5("Dominik","Grudzienn");
 
 function Zadanie6(tekst, znak){
     var arr = tekst.split(znak);
