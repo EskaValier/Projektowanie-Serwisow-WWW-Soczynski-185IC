@@ -68,4 +68,10 @@ checkFemale("Marcin") === false
 Napisz funkcję countWomanInTable(arr), do której przekażesz tablicę userów, którą masz poniżej. Funkcja powinna sprawdzić każdego użytkownika w tablicy i zwrócić ile jest kobiet. 
 
 
-**Widok strony oraz wynik działania skryptów**
+**Wyniki działania skryptów - tasks.js oraz index.js**
+
+Zadania
+![Zadania](Screenshots/Zadania1-9.jpg "Zadania")
+
+Eventlistener
+![EventListenery](Screenshots/EventListenery.jpg "EventListenery")
