@@ -11,3 +11,8 @@ Prosta strona WWW. Strona zawiera przyciski których funkcje realizowane są za 
 **Lab3 - Obsługa zdarzeń**
 W ramach praktyki do wykonania zadania z JavaScript - 9 zadań
 Oraz za pomocą metody addEventListener należy obsłużyć 10 różnych wybranych zdarzeń
+
+**Lab4 - Gra przeglądarkowa**
+
+Do zrealizowania jest prosta gra przeglądarkowa, inna niż była omawiana na zajęciach.
+Należy wykorzystać element do implementowania podstawowych mechanik gry jak renderowanie, przesuwanie grafik, wykrywanie kolizji, mechanizmu sterowania oraz stanu wygrania/przegrania.
