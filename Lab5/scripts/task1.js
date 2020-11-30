@@ -1,4 +1,4 @@
-// Tast 1
+// Task 1
 
 console.log("1. callback");
 
