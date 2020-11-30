@@ -32,6 +32,7 @@ async function sumLogLng(url) {
     .catch((error) => {
         console.error('Error:', error);
     })
+    .finally(function() { isLoading = false; });
 
     console.log("2.1\nlat + lng",lat+lng);
     nazwaAndRegion(nazwa, region, function(result){
@@ -41,6 +42,13 @@ async function sumLogLng(url) {
 
 sumLogLng(url_country);
 
-// let url_country_wrong = 'https://restcountries.eu/rest/v2/name/abcd';
-
-// sumLogLng(url_country_wrong);
+function resolved(result) {
+    console.log('Resolved');
+}
+  
+function rejected(result) {
+    console.error(result);
+}
+  
+Promise.resolve("Succes").then(resolved, rejected);
+Promise.reject(new Error('sth goes wrong')).then(resolved, rejected);
