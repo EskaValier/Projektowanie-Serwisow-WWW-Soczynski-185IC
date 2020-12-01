@@ -24,6 +24,10 @@ xhr.onload = function() {
   });
 };
 
+xhr,onerror = function(){
+    console.log("Request Error ");
+}
+
 function nazwaAndCurrency(nazwa,currency,fn){
     let zdanie = "In country " + nazwa + " you can pay using " + currency;
     fn(zdanie);
