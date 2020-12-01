@@ -1,29 +1,29 @@
-// Task 1
+// Task 1 & 3
 
-console.log("1. callback");
+console.log("1. callback and 3. async/await");
 
 async function fetch_try(url) {
     let response = await fetch(url);
 
     if (response.ok) {
-    console.log("Status = ", response.status);
+    console.log("1. Status = ", response.status);
     let json_obj = await response.json();
     let country = json_obj[0].name;
     let capital = json_obj[0].capital;
     let latitude = json_obj[0].latlng[0];
     let longitude = json_obj[0].latlng[1];
-    console.log("Chosen country: ", country, " with capital in: ", capital);
-    console.log("Latitude: ", latitude);
-    console.log("Longitude: ", longitude);
+    console.log("1. Chosen country: ", country, " with capital in: ", capital);
+    console.log("1. Latitude: ", latitude);
+    console.log("1. Longitude: ", longitude);
     } 
     else {
-        console.log("HTTP-Error: " + response.status);
+        console.log("1. HTTP-Error: " + response.status);
     }
 }
 
-let url_canada = 'https://restcountries.eu/rest/v2/name/canada';
+let url_japan = 'http://restcountries.eu/rest/v2/name/japan';
 
-fetch_try(url_canada);
+fetch_try(url_japan);
 
 async function sumLogLng(url,fn) {
     let response = await fetch(url);
@@ -35,11 +35,11 @@ async function sumLogLng(url,fn) {
     fn(latitude+longitude);
     } 
     else {
-        console.log("HTTP-Error: " + response.status);
+        console.log("1. HTTP-Error: " + response.status);
     }
 }
 
-sumLogLng(url_canada, function(result){
+sumLogLng(url_japan, function(result){
     console.log("1.1:\nSuma latitude oraz longitude wynosi: " + result);
 });
 
@@ -53,11 +53,11 @@ async function nameAndTimezones(url,fn) {
     fn(name,timezones);
     } 
     else {
-        console.log("HTTP-Error: " + response.status);
+        console.log("1. HTTP-Error: " + response.status);
     }
 }
 
-nameAndTimezones(url_canada,function(name,timezone){
+nameAndTimezones(url_japan,function(name,timezone){
     console.log("1.2:\nIn " + name + " are timezones:");
     let zones = "";
     timezone.forEach(zone => {
