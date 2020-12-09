@@ -27,3 +27,9 @@ Zadania do wykonania:<br />
 4. Zapytania AJAX<br />
 5. metoda fetch<br />
 6. bibliotexa axios<br />
+
+**Lab6 - React part 1**
+
+Realizacja aplikacji frontendowej za pomocą Create React App
+(wykorzystanie props(argumenty przekazywane), wykorzystanie state do tworzenia komponentu klasowego, funkcja "map()" z wykorzystaniem "key")
+
