@@ -12,3 +12,5 @@ w aplikacji należy zrealizować nw. zadania:
 7. należy zastosować funkcję map() przy generowaniu komponentów i należy pamiętać o atrybucie key
 8. należy zrealizowac wysyłanie funkcji za pomocą ‘props’
 
+Wygląd strony
+![Strona](Screenshots/Strona.jpg "Strona")
