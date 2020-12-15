@@ -9,7 +9,7 @@ class App extends Component{
         super();
         this.state = {
             title: [
-                {id: 0, name: "Laboratorium 7 - React"}
+                {id: 0, name: "Laboratorium 6 - React"}
             ],
             elements: [
                 { id: 0, name: "Śniadanie", time: "07:00" },
@@ -25,7 +25,7 @@ class App extends Component{
         const my_List = this.state.elements.map(el =>{
             return <ListEl key={el.key} name={el.name} time={el.time} />
         })
-        // const { title } = this.state      return <Paper>        ...      </Paper>
+       
         return(
             <div>
                 {my_Header}

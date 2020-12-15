@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
 
-import Lab7 from './App2';
+import Lab6 from './App2';
 import FreeCodeCamp from './App3';
 
 
@@ -15,7 +15,7 @@ function App() {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/Laboratorium6">Lab 7</Link>
+              <Link to="/Laboratorium6">Lab 6</Link>
             </li>
             <li>
               <Link to="/freeCodeCamp">freeCodeCamp</Link>
@@ -30,7 +30,7 @@ function App() {
             renders the first one that matches the current URL. */}
         <Switch>
           <Route path="/Laboratorium6">
-            <Lab7 />
+            <Lab6 />
           </Route>
           <Route path="/freeCodeCamp">
             <FreeCodeCamp />
