@@ -30,5 +30,14 @@ Wygląd strony z kursu po dodaniu elementu do listy
 Wygląd strony z kursu po usunięciu elementu z listy
 ![Strona FCC deleted](Screenshots/FCCdeleted.jpg "Strona FCC deleted")
 
-Wygląd strony app3 (w trakcie tworzenia)
-![Strona app3](Screenshots/app3.jpg "Strona app3")
+Wygląd strony app3 - Quiz na początku
+![Strona Quiz start](Screenshots/QuizStart.jpg "Strona Quzi start")
+
+Wygląd strony app3 - Quiz dobra odpowiedź
+![Strona Quiz good](Screenshots/QuizGood.jpg "Strona Quzi good")
+
+Wygląd strony app3 - Quiz zła odpowiedź
+![Strona Quiz wrong](Screenshots/QuizWrong.jpg "Strona Quzi wrong")
+
+Wygląd strony app3 - Quiz brak odpowiedzi
+![Strona Quiz No Answer](Screenshots/QuizNoChooseAns.jpg "Strona Quzi No Answer")

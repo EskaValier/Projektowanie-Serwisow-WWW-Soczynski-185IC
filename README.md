@@ -33,3 +33,12 @@ Zadania do wykonania:<br />
 Realizacja aplikacji frontendowej za pomocą Create React App
 (wykorzystanie props(argumenty przekazywane), wykorzystanie state do tworzenia komponentu klasowego, funkcja "map()" z wykorzystaniem "key")
 
+**Lab7 - React, aplikacja nr 2**
+- wykorzystanie Material UI oraz React-Router,
+- instalacja Material UI,
+- routing po stronie serwera i po stronie klienta, czyli po co nam,
+- instalacja i proste przykłady użycia React-Router’a,
+- zadanie - wykorzystać dwie biblioteki react’owe do utworzenia prostej SPA:
+- należy stworzyć trzy “podstrony” (komponenty link, Switch i Route),
+- na każdej z ww. podstron powinny znaleźć się trzy różne komponenty z Material UI,
+- plusy ➕➕➕ za wykorzystanie ‘state’, ‘props’, innych bibliotek (np. bootstrap).
