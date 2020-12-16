@@ -3,6 +3,7 @@ import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
 
 import Lab6 from './App2';
 import FreeCodeCamp from './App3';
+import Quiz from './App4';
 
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
               <Link to="/freeCodeCamp">freeCodeCamp</Link>
             </li>
             <li>
-              <Link to="/app3">app3</Link>
+              <Link to="/Quiz">app3</Link>
             </li>
           </ul>
         </nav>
@@ -35,8 +36,8 @@ function App() {
           <Route path="/freeCodeCamp">
             <FreeCodeCamp />
           </Route>
-          <Route path="/app3">
-            <App3 />
+          <Route path="/Quiz">
+            <Quiz />
           </Route>
           <Route path="/">
             <Home />
@@ -49,10 +50,6 @@ function App() {
 
 function Home() {
   return <h2>Home page</h2>;
-}
-
-function App3() {
-    return <h2>Tu bedzie app3 jak wymysle co ma być</h2>;
 }
 
 export default App;
