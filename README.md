@@ -42,3 +42,9 @@ Realizacja aplikacji frontendowej za pomocą Create React App
 - należy stworzyć trzy “podstrony” (komponenty link, Switch i Route),
 - na każdej z ww. podstron powinny znaleźć się trzy różne komponenty z Material UI,
 - plusy ➕➕➕ za wykorzystanie ‘state’, ‘props’, innych bibliotek (np. bootstrap).
+
+**Lab8 - React aplikacja nr 3 + analiza kodu źródłowego + git difftool**
+- przykład należy przeanalizować i dokonać swoich modyfikacji,
+- należy dokładnie opisać (skomentować) kod aplikacji (zainstalowane moduły, użyte komponenty itp.) oraz wprowadzone własne modyfikacje,
+- ww. modyfikacje kodu należy zaprezentować wizualnie na zrzucie ekranu po komendzie git difftool
+- w pliku README należy umieścić link do oryginalnego przykładu,
