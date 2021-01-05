@@ -13,3 +13,18 @@ Wygląd strony - wyszukiwarki zdjęć
 
 Wygląd strony - wyszukiwanie zdjęć z podanej kategorii
 ![Strona wyszukiwarki - Wyszukana](Screenshots/Wyszukanie.jpg "Strona wyszukiwarki - Wyszukana")
+
+Wyniki wywołanie komendy "git difftool" oraz podglądu zmian w plikach
+
+**Różnice w pliku App.js**
+![Git Difftool - app](Screenshots/Diff-App.jpg "Git Difftool - app")
+![Git Difftool - app2](Screenshots/Diff-App2.jpg "Git Difftool - app2")
+
+**Różnice w pliku Container.js**
+![Git Difftool - container](Screenshots/Diff-Container.jpg "Git Difftool - container")
+
+**Różnice w pliku Form.js**
+![Git Difftool - form](Screenshots/Diff-Form.jpg "Git Difftool - form")
+
+**Różnice w pliku Gallery.js**
+![Git Difftool - gallery](Screenshots/Diff-Gallery.jpg "Git Difftool - gallery")
