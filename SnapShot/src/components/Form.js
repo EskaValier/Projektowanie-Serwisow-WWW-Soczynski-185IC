@@ -1,5 +1,11 @@
 import React, { useState } from "react";
 
+//formularz do wpisywania kategorii wyszukania zdjęć
+//jeśli nie wpiszemy żadnego tekstu przycisk wyszukania nie jest wyświetlany
+//sprawdzanie jest wykonywane za pomocą funkcji "trim", co pozwala usunąć wyszukiwanie po wpisaniu tylko spacji
+//pole do wpisywania oraz przycisk znajdują się w 1 formie
+//przycisk zrealizowany jest za pomocą grafiki (lupy) przy pomocy svg czyli skalowalnej grafiki wektorowej
+// a nie tekstu np napisu "szukaj" albo "search"
 const Form = ({ handleSubmit, history }) => {
   const [searchEntry, setSearchEntry] = useState("");
   // update search text state

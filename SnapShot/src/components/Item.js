@@ -1,6 +1,7 @@
 import React from "react";
 import Container from "./Container";
 
+// zastępuje "Search.js", przeznaczony dla przycisków z 4 kategoriami
 const Item = ({ searchTerm }) => {
   return (
     <div>

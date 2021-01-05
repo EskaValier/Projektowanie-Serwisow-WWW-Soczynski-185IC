@@ -1,5 +1,6 @@
 import React from "react";
 
+// komunikat nie znalezienia zdjęć dla wpisanej kategorii
 const NoImages = () => (
   <div>
     <h2>No Images Found</h2>

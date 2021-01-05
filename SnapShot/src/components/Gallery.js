@@ -1,6 +1,10 @@
 import React from "react";
 import NoImages from "./NoImages";
 import Image from "./Image";
+
+//wyszukanie i wyświetlenie zdjęć (lub ich brak)
+//sprawdza czy w przyjętych danych (props) znajdują się dane na temat zdjęć i je wyświetla korzystając z IMAGE
+//jeśli nie ma zdjęć wyświetlany jest element NoImages informujący o braku zdjęć z danej kategorii
 const Gallery = props => {
   const results = props.data;
   let images;
